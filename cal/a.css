@@ -1,0 +1,145 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    /* font-family: 'Bungee Spice', cursive; */
+    font-family: cursive;
+    
+        /* background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%); 
+    background: linear-gradient(60deg, #a60af3 60%, #7a00cc 60%); */
+    background: linear-gradient(60deg, #0a73f3 50%, #3150ff 40%);
+}
+.null{
+    margin-bottom: 40px;
+}
+.border{
+    border: 2px solid black;
+    width:314;
+    
+    margin: auto;
+    border-radius: 15px;
+    background-color: #202124;
+    box-shadow: 1px 1px 21px black;
+}
+.space{
+    margin-bottom: 18px;
+}
+.button {
+    width: 50px;
+    height: 60px;
+    padding: 20px;
+    margin: 0 3px;
+    color: aliceblue;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #3c4043;
+    
+}
+.button:hover{
+    background-color: #3c4043d5;
+    
+}
+#clear{
+    width: 50px;
+        height: 60px;
+        padding: 20px;
+        margin: 0 1px;
+        color: aliceblue;
+        border: none;
+        border-radius: 9px;
+        cursor: pointer;
+        /* background-color: #ff5200; */
+        background:linear-gradient(144deg, #fba200 -9.18%, #bf0000 98.85%);
+        
+        
+}
+#clear:hover{
+    
+    background: linear-gradient(144deg, #de0202 -9.18%, #5F0D89 98.85%);
+}
+#side {
+    
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    margin: 0 3px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+   
+    background-color: #458afae3;
+    
+
+}
+#side:hover{
+    /* background-color: #8ab4f8; */
+      background-color: #8ab4f8;
+}
+#sidea {
+
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    margin: 0 3px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #458afae3;
+    transition: 3s;
+
+    
+
+}
+
+#sidea:hover {
+    background: linear-gradient(150deg, #3e00cd -9.18%, #5F0D89 98.85%);
+
+}
+
+
+.row {
+    margin: 5px 6px;
+}
+
+.row input {
+    width: 290px;
+    height: 61px;
+    font-size: 20px;
+    margin: 0;
+    padding: 6px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: right;
+    box-shadow: 1px 1px 15px gray;
+    background-color: rgb(188, 221, 250);
+    font-size: 30px;
+}
+:placeholder-shown{
+    font-size: 10px;
+}
+.text-center {
+    text-align: center;
+}
+
+.bg-red {
+    background: red;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
